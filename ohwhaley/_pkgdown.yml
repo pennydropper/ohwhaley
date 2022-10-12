@@ -1,4 +1,10 @@
 url: https://pennydropper.github.io/ohwhaley/
 template:
   bootstrap: 5
-
+  bootswatch: journal
+navbar:
+  bg: primary
+  type: dark
+  structure:
+    left:  [intro, reference, articles, tutorials, news]
+    right: [search, github]
